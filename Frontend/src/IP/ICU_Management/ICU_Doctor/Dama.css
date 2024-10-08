@@ -1,0 +1,31 @@
+.gap_align{
+  
+display: flex;
+justify-content: center 
+!important;
+  padding-bottom: 40px;
+}
+
+.size_align{
+    width: 200px;
+}
+
+.size_align input {
+    width: 50px;
+    height: 25px;
+}
+
+.width_align{
+    width:200px;
+}
+
+
+.gap_align textarea{
+    /* width: 600px !important; */
+    height: 100px !important;
+}
+
+
+
+
+

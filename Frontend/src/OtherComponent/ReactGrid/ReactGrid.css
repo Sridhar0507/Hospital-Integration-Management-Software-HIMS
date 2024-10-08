@@ -1,0 +1,112 @@
+.rdg {
+    --rdg-header-background-color: var(--ProjectColor);
+    --rdg-row-hover-background-color: var(--ProjectColorhover);
+    --rdg-selection-color: lightblue;
+ 
+   
+}
+#audchadiuchadh{
+    background-color: aqua !important;
+}
+.h44jtk67-0-0-beta-44,.hcgkhxz7-0-0-beta-44 {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+.rdg .rdg-header-row {
+    text-align: center;
+    padding: 0px 5px;
+    background-color: var(--rdg-header-background-color);
+}
+
+.rdg .rdg-header-cell {
+    color: white;
+    text-align: center;
+    /* Adjust the header text color as needed */
+}
+
+
+.rdg .rdg-cell {
+    padding-block-start: 0px !important;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+
+.rdg .rdg-row:nth-child(odd) {
+    background-color: var(--Tablerownthchild);
+}
+
+.rdg .rdg-row:nth-child(odd):hover {
+    background-color: var(--ProjectColorhover);
+}
+
+/* Custom Scrollbar for Webkit Browsers */
+.rdg ::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+.rdg ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+.rdg ::-webkit-scrollbar-thumb {
+    background: var(--Tablerownthchild);
+    /* Color of the scrollbar thumb */
+    border-radius: 6px;
+    /* Rounded corners for the scrollbar thumb */
+}
+
+.rdg ::-webkit-scrollbar-thumb:hover {
+    background: var(--Tablerownthchild);
+    /* Color of the scrollbar thumb when hovered */
+}
+
+/* Custom Scrollbar for Firefox */
+.rdg {
+    scrollbar-width: thin;
+    scrollbar-color: var(--ProjectColor) #f1f1f1;
+    height: auto;
+    max-height: 350px;
+    width: clamp(320px, 90%, 100%);
+
+}
+
+.rdg::-webkit-scrollbar-corner {
+    background-color: var(--rdg-background-color);
+    /* Scrollbar corner color */
+}
+
+.ReactGridFoot {
+    width: clamp(320px, 90%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.ReactGridFoot span {
+    color: grey;
+
+}
+
+.datatableheadercchecked{
+    width: 100%;
+    height: 100%;
+
+}
+.selectedheader{
+    color: red;
+}
+

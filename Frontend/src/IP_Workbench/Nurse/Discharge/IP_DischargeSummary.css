@@ -1,0 +1,96 @@
+.patient_labels{
+    width: 250px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    height: 30px;
+    
+    border-radius: 5px;
+    font-size: 12px;
+    color: var(--labelcolor);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+  font-size: 15px;
+  flex-basis: 70%; 
+  }
+
+
+  .patient_basic_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+
+  
+  .patient_basic_details div {
+    flex: 1;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+  
+
+
+  label {
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+    flex-basis: 80%; /* Adjust this value as needed for label width */
+  }
+
+
+
+
+
+  .align_label {
+    display: flex;
+    justify-content: space-between; /* Aligns labels and values at the ends */
+    margin-bottom: 10px; /* Adds space between each label-value pair */
+  }
+
+
+  .RegisFormcon_1 {
+    margin-top: 20px;
+  }
+  .text_adjust {
+    margin-bottom: 15px;
+    margin-right: 90px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    /* resize: none; */
+    resize: vertical;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+
+  .signature-align{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    border: none;
+
+  }
+  
+  .RegisForm_1.signature-align {
+    position: relative;
+    left: 224px;
+}
+  
+  

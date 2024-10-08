@@ -1,0 +1,58 @@
+
+.table_container {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .table_container table {
+    width: 100%;
+    border-collapse: collapse; /* Ensure no space between borders */
+    border-color: aqua;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+  }
+  
+  .table_container th, .table_container td {
+    padding: 5px;
+    border: 1px solid aqua;
+    text-align: left;
+  }
+  
+  .table_container td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* Remove space between tables */
+  .table_container + .table_container {
+    margin-top: 0; /* Ensure no space between consecutive tables */
+  }
+  
+  .remarks-cell {
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  .remarks-cell textarea {
+    width: 100%;
+    min-height: 50px;
+  }
+  
+  .checkbox-label {
+    margin-left: 10px;
+  }
+  
+  .DivCenter_container {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+  }

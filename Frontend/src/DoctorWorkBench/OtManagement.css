@@ -1,0 +1,1456 @@
+.OtMangement_con{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* row-gap: 45px; */
+    row-gap: 30px;
+    width: 100%;
+    }
+    
+    .OtMangement_con_intra_check{
+      width: 100% !important;
+    }
+    
+    .OtMangementForm_1{
+        display: flex;
+        gap: 15px;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: start;
+        /* padding: 30px 0px 10px 10px ; */
+        padding: 5px;
+    
+    }
+    
+    .OtMangementForm_1 label{
+        display: flex;
+        width:170px;
+        font-size: 13px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: start;
+        font-weight: bold;
+    
+    }
+    
+    .OtMangementForm_1 span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* gap: 3px; */
+        font-size: 12.5px;
+        /* width: 60px; */
+        font-weight: bold;
+    }
+    
+    .OtMangementForm_1_checkbox{
+        display: flex;
+    /* width: 100%; */
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        /* width: 300px; */
+        flex-wrap: wrap;
+    }
+    
+    .OtMangementForm_1_checkbox label{
+        width: 70px !important;
+        justify-content: flex-start;
+    }
+    
+    .edwue662l{
+    display: flex;
+    row-gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    }
+    .edwue662l label{
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px !important;
+      font-size: 13.5px;
+    
+      
+    }
+    
+    .edwue662l_22 label{
+      width: 250px !important;
+    }
+    
+    
+    
+    
+    .edwue662l h6{
+      width: 220px;
+      display: flex;
+      justify-content: flex-start;
+      text-align: start;
+      align-items: center;
+      font-weight: 100;
+      font-size: 10.2px;
+    }
+    
+    .OtMangementForm_1nurceees{
+      display: flex;
+      justify-content: center;
+      /* width: 100%; */
+    }
+    
+    .OtMangementForm_1nurceees{
+      gap: 20px;
+    }
+    
+    
+    
+    .OtMangementForm_1nurceees input[type="checkbox"]{
+    height: 16px;
+    width: 16px;
+    }
+    
+    .OtMangementForm_1_checkbox input[type="checkbox"]{
+      height: 13px;
+      width: 13px; 
+    }
+    
+    
+    .cenetrOt_singn_date_tym{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .cenetrOt_singn_date_tym_2 label{
+        width: 200px;
+    }
+    .date_stle_OT{
+        width: 100px;
+        padding: 5px;
+        border: 1px solid var(--ProjectColor);
+        border-radius: 5px;
+    }
+    /* Styles for radio buttons */
+    .OtMangementForm_1 input[type="checkbox"] {
+        /* Adjust spacing between radio button and label */
+        transform: scale(1.4); /* Make radio buttons slightly larger for better visibility */
+      margin-right: 3px;
+    }
+    
+    
+      .OtMangementForm_1 input{
+        width: 120px;
+        padding: 5px;
+        border:  1px solid var(--ProjectColor);
+        border-radius: 5px;
+        outline: none;
+      }
+      
+      /* Styles for label text */
+      .OtMangementForm_1 label {
+        color: #333; /* Text color */
+        display: flex;
+        gap: 5px;
+      }
+      
+      /* Style for selected radio button */
+      .OtMangementForm_1 input[type="checkbox"]:checked + label {
+        font-weight: bold; /* Make the selected option bold */
+      }
+    
+    
+      /* For Intra Doctor */
+    
+    
+      .Otdoctor_intra_Con{
+        display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .Otdoctor_intra_Con_2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        
+      }
+    
+      .Otdoctor_intra_Con_2 label{
+        display: flex;
+        width: 80px;
+        justify-content: space-between;
+        font-weight: bold;
+        text-align: center;
+        font-size: var(--fontsize);
+        align-items: center;
+      }
+    
+      .Otdoctor_intra_Con_2 textarea{
+        width: 80%;
+        height: 350px;
+        padding: 5px;
+      }
+    
+      .text_adjust_mt_Ot{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+      }
+      .text_adjust_mt_Ot textarea{
+        width: 45%;
+        height: 80px;
+        padding: 5px;
+      }
+    
+      .text_adjust_mt_Ot label{
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        font-weight: bold;
+        text-align: start;
+        font-size: var(--fontsize);
+        align-items: center;
+      }
+    
+    .Otdoctor_intra_Con_udy6d{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 43px;
+    }
+      .Otdoctor_intra_Con_2_input{
+        display: flex;
+        gap: 34px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .Otdoctor_intra_Con_2_input label{
+    font-size: var(--fontsize);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+      }
+    
+      .Otdoctor_intra_Con_2_input input{
+        width: 150px;
+        padding: 5px;
+        border:  1px solid var(--ProjectColor);
+        border-radius: 5px;
+        outline: none;
+      }
+    
+      .OtMangementForm_1_checkbox_Intraaaaa{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .OtMangementForm_1_checkbox_Intraaaaa label{
+        font-size: var(--fontsize);
+        font-weight: bold;
+        width: 105px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    
+    
+      }
+    
+      .cell_btn12{
+        background-color: var(--ProjectColorhover);
+        color: var(--labelcolor);
+        padding: 0px 5px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+      }
+    
+      .input_table_tye_site{
+        width: 200px;
+        padding: 5px;
+        border: 1px solid var(--ProjectColor);
+        border-radius: 5px;
+        outline: none;
+        text-align: center;
+    
+      }
+    
+      .vvnm_p4{
+        width: 100px !important;
+        text-align: center;
+      }
+    
+      .with_increse_85 label{
+        width: 250px;
+        justify-content: center;
+        gap: 10px;
+      }
+    
+      .radio_Nurse_ot2_head{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+        margin-left: 6px;
+        height: 30px;
+        width: 160px;
+      }
+    
+      .radio_Nurse_ot2{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .radio_Nurse_ot2 label{
+        display: flex;
+        width: 65px !important;
+        text-align: center;
+        justify-content: flex-start !important;
+      }
+    
+      .radio_Nurse_ot2_input{
+        width: 15px !important;
+        /* 30 */
+        height: 13px !important;
+      }
+    
+    
+      .jdcneuir8o34di{
+        display: flex;
+        /* flex-direction: column; */
+        /* row-gap: 20px; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+      }
+    
+      .swsxwdef7ujn{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+      }
+    
+      .swsxwdef7ujn label{
+        justify-content: center;
+        gap: 10px;
+      }
+      .swsxwdef7ujn textarea{
+    width: 90% !important;
+    height: 60px;
+      }
+    /* 
+      .RegisForm_1 img{
+        width: 162px;
+        height: 30px;
+        border-radius: 5px;
+      } */
+    
+      .nurse_sign_capte45_head23 label{
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        align-items: center;
+        width: 150px;
+      color: var(--labelcolor);
+      font-size: var(--fontsize);
+      font-weight: bold;
+    
+      }
+    
+      .nurse_sign_capte45_head23{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      
+      }
+      .nurse_sign_capte45{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .nurse_sign_capte45 label{
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: var(--fontsize);
+      }
+    
+      .nurse_sign_capte45 input{
+        width: 150px;
+        border: 1px solid var(--ProjectColor);
+        border-radius: 5px;
+        outline: none;
+        padding: 5px;
+        height: 22px;
+      }
+    
+    
+      .nurse_sign_capte45 img{
+        width: 160px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 13px;
+      }
+    
+      .img_ckecd_dctr{
+        width: 140px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 13px;
+      }
+    
+      .nurse_sign_capte45 h5{
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        color: gray;
+      }
+    
+      .nurse_sign_capte45_head{
+        display: flex;
+        width: 100%;
+        justify-content:center;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        text-align: center  ;
+      }
+    
+      .nurse_sign_capte45_skib{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 5px;
+      }
+    
+    
+      .OtMangement_con_headerey7{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: center;
+        /* gap: 10px; */
+      }
+      .eredr4f{
+        gap: 10px;
+      }
+    
+      .OtChecked_by_nurse87{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+      } 
+    
+      .OtChecked_by_nurse87 label{
+        display: flex;
+        width: 120px;
+      }
+    
+      .okwixs7xs9{
+        flex-direction: row !important;
+      }
+    
+      .xzaae8654d{
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .stable_unstable_dic_u{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+      }
+    
+      .xyu6qrlscx0awd label{
+        display: flex;
+        gap: 10px;
+        margin-right: 10px;
+      }
+    
+      .ewferjd{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 5px;
+      }
+    
+      .ewferjd textarea{
+        width:100% !important;
+        height:70px !important;
+      }
+    
+      .EDCEDSEW3{
+        flex-direction: column !important;
+        row-gap: 10px !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .EDCEDSEW3 label{
+        justify-content: flex-start;
+        text-align: start;
+      }
+    
+      .wedscr54{
+        width: 30px !important;
+        text-align: center;
+      }
+    
+      .dewui76ec{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+      }
+    
+      .OtMangement_con_santhu{
+        display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+        align-items: self-start;
+      }
+    
+      .erwdf3 label{
+    
+        width: 100px !important;
+    
+      }
+    
+      .gtrtrdyut554{
+    
+        display:flex;
+        gap: 10px;
+    justify-content: center;
+    align-items: self-start;
+    text-align: center;
+      }
+    
+    
+      .dfr6kmnbv{
+        width: 80px !important;
+      }
+    
+      .OtMangement_con34r{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    
+      }
+    
+      .ewdfhyewuf65{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .ewdfhyewuf65444{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .ewdfhyewuf652ewdwd{
+        display: flex;
+    
+    
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+    
+      .edercxx{
+        width: 50% !important;
+      }
+    
+    .euiwd6745q3{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 10px;
+      justify-content: flex-end;
+      text-align: center;
+    }
+    
+    .euiwd6745q3 label{
+      width: 165px !important;
+      justify-content: center;
+      gap: 5px;
+    }
+    
+    .euiwd6745q3 textarea{
+      width: 80% !important;
+      height: 40px;
+    }
+    
+    .wqsxwqqq{
+      margin: 15px 5px;
+    }
+    
+    .wqsxwqqq label{
+      width: 250px !important;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .ecexzvb{
+      width: 355px !important;
+    }
+    
+    /* .errvmmklpee4{
+    
+    } */
+    .errvmmklpee4 label{
+      width: 38px !important;
+      gap: 0px !important;
+      
+    }
+    
+    .wfre6567ty{
+      gap: 3px !important;
+    }
+    
+    /* .djkwked675 label{
+      flex-wrap: wrap;
+    } */
+    
+    .djkwked675{
+      padding: 15px 0px;
+      
+    }
+    
+    .djkwked675 label{
+    width: 300px;
+    }
+    
+    
+    .djkwked675 span{
+      display: flex;
+      justify-content: flex-start;
+      text-align: start;
+      align-items: center;
+     
+    }
+    
+    .djkwked675 input{
+      border: 1px solid var(--ProjectColor);
+      border-radius: 5px;
+      padding: 5px;
+      width: 353px;
+      outline: none;
+      height: 20px;
+    
+    }
+    
+    .djkwked67eee5 {
+    
+    display: flex;
+    gap: 70px;
+    
+    }
+    
+    .nmmlkiu76d label{
+      display: flex;
+      width: 115px !important;
+      justify-content: flex-start;
+    }
+    
+    .errvmmklpee4222 label{
+      display: flex;
+      width: 80px !important;
+      gap: 5px;
+    }
+    
+    .incre_with_lbel_098 label{
+    width: 500px !important;
+    }
+    
+    
+    .swxzswert label{
+     display: flex;
+     gap: 25px;
+     width: 200px !important;
+    }
+    
+    .swxzswert input{
+    
+      width: 10px;
+      height: 10px;
+    }
+    
+    .wsdsceew{
+      justify-content: center !important;
+    }
+    
+    .wsdsceewww2{
+      justify-content: space-evenly !important;
+    }
+    
+    
+    .wedsd367809 label{
+      width: 32px !important;
+    }
+    
+    .wqxxxzzxx2 label{
+      width: 70px !important;
+      text-align: start;
+      display: flex;
+     
+    }
+    
+    .wqxxxzzxx2ed{
+      flex-direction: column;
+      row-gap: 5px !important;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 20px;
+    
+    }
+    
+    .vvbvcxxzas label{
+      width: 175px !important;
+      text-align: start;
+      gap: 3px;
+      justify-content: flex-start !important;
+    }
+    
+    .vvbvcxxzaswwqqqqw label{
+      width: 70px !important;
+      justify-content: flex-start !important;
+    }
+    .dsewwsdw32{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      height: 100px;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .dededxs{
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    
+    .wwssqqqw1z{
+      width: 70px !important;
+    }
+    
+    .dsdcmlpio{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .dsewwsdw3qqqs2{
+      display: flex;
+      /* flex-direction: column; */
+      row-gap: 10px;
+      height: 120px;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .dsewwsdw3qqqs234{
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      height: 130px;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center; 
+    }
+    
+    .wqxwxsio87 label{
+      width: 145px !important;
+    }
+    
+    .vvbvcxxzaswwqqqqwsssssxxxcc label{
+    
+      width: 70px !important;
+    }
+    
+    .xcvcxc label{
+      width: 205px !important;
+    }
+    
+    .xcvcxc2 label{
+      width: 110px !important;
+    }
+    
+    .chart_table_anathes{
+      width: 100px;
+      height: 15px;
+    text-align: center;
+    padding: 5px;
+      border: 1px solid var(--ProjectColor);
+      border-radius: 5px;
+      outline: none;
+    
+    }
+    
+    .ref3e34dew343 label{
+      width: 250px !important;
+    }
+    
+    .ececeee span{
+      width: 75px !important;
+      display: flex;
+      justify-content: flex-start;
+      text-align: start;
+    }
+    
+    .weewdexewdd label{
+    width: 115px !important;
+    justify-content: flex-start;
+    font-size: 12px;
+    }
+    
+    .de32111{
+      width: 50px !important;
+      text-align: center;
+      border: none !important;
+      border-bottom: 1px solid var(--ProjectColor) !important;
+    }
+    
+    .wedscr54_secd_8643r{
+      width: 80px;
+      padding: 5px;
+      border: 1px solid var(--ProjectColor);
+      border-radius: 5px;
+      outline: none;
+      text-align: center;
+    }
+    
+    .ee33223{
+      height: 40px;
+    }
+    
+    .sdef11{
+      width: 200px !important;
+    }
+    
+    
+    
+    .ejdc7x{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+    
+    }
+    
+    .idoop9{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .idoop9 label{
+      display: flex;
+      width: 40px;
+      text-align: center;
+      justify-content: center;
+    }
+    
+    .RegisForm_1_Opthal label {
+      width: 50;
+      display: flex;
+      font-size: var(--fontsize);
+      font-weight: bold;
+      justify-content: space-between;
+      text-align: start;
+      align-items: center;
+      gap: 5px;
+      color: var(--labelcolor);
+  }
+    .idoop9 input{
+      width: 52px !important;
+    }
+    
+    .nbhgbhvg input {
+    width: 30px !important;
+    }
+    
+    .mlpocvfd{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .ecdeeed{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    
+    }
+    
+    .weddce2{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    
+    .u78i7{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .fvgg{
+      display: flex;
+    }
+    
+    .img_lens_iujd{
+    
+      display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 10px;
+    
+    }
+    
+    .img_lens_iujd button,.img_lens_iuj_lens button{
+      padding: 2px 1px ;
+      width: 50px;
+      background-color: var(--ProjectColor);
+      border: none;
+      outline: none;
+      border-radius: 5px;
+    }
+    
+    .img_lens_iujd button:hover,.img_lens_iuj_lens button:hover{
+    color: white;
+    }
+    
+    .img_lens_iuj_lens {
+      display: flex;
+     justify-content: center;
+     flex-direction: column;
+     row-gap: 10px;
+     align-items: center;
+    
+    }
+    
+    .img_lens_iuj_fun img{
+      width: 200px;
+      height: 180px;
+    
+    }
+    
+    .lokm89 span{
+    width: 50px !important;
+    }
+    
+    
+    .ecdeeedrdfdf{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      row-gap: 10px;
+    }
+    
+    .label_extra_width label{
+      width: 210px;
+    }
+    
+    .edwue662l p{
+      width: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    
+    .edwue662l_2 p{
+      width: 200px;
+    }
+    
+    .RegisForm_1 img{
+      width: 162px;
+    }
+    
+    
+    .eiuwd7we67657887{
+      width: 365px;
+    }
+    
+    .sigCanvas2_head11{
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .sigCanvas2_head{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .sigCanvas2_head h5{
+      display: flex;
+      justify-content: center;
+    }
+    @media print {
+    
+        @page {
+          size: A4;
+          margin: 0;
+          padding: 10px;
+          margin-top: 20px !important;
+          margin-bottom: 20px !important;
+        }
+      
+        
+        .printgr5 {
+          display: none !important;
+        }
+    
+        /* .Print_ot_all_div{
+          margin-left: 50px !important;
+        } */
+    /* pre-N */
+        .Print_ot_all_div_second{
+          margin-left: 40px !important;
+        }
+    
+        .DCER43{
+          margin-left: 10px !important;
+        }
+    
+        .Print_ot_all_div_Third {
+    
+          margin-left: 85px !important;
+        }
+    
+        .Print_ot_all_div_rfve{
+          margin: 0px 30px 30px 30px !important;
+          margin-right: 32px !important;
+        }
+    
+        .OtMangementForm_1nurceees{
+          gap: 5px !important;
+        }
+    
+        .edwue662l label{
+          width: 250px !important;
+        }
+    
+        .Otdoctor_intra_Con_udy6d{
+          flex-direction: column !important;
+          row-gap: 15px !important;
+        }
+        
+    /* pre -D */
+    
+    .Print_ot_all_div_second2{
+      margin-left: 60px !important;
+    }
+        .Print_ot_all_div_pre{
+          margin-right: 30px !important;
+        }
+    
+        .cenetrOt_singn_date_tym{
+          flex-direction: column !important;
+        }
+    
+        .nurse_sign_capte45{
+          flex-direction: row !important;
+        }
+    
+        .vvnm_p4{
+          width: 60px !important;
+        }
+    
+        .wedscr54{
+          width: 25px !important;
+        }
+        .wedscr54_secd{
+          width: 40px !important;
+        }
+    
+        .gtrtrdyut554{
+          flex-direction: column;
+    
+        }
+    
+        .eferytr{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+    
+        .de5y67y{
+          margin-bottom: 20px !important;
+        }
+    
+    
+        /* .OtMangementForm_1_checkbox{
+          flex-direction: column;
+          width: 210px;
+         } */
+    
+         .djkwked675 input{
+          width: 120px;
+         }
+    
+         /* .ewdfhyewuf65 {
+          row-gap: 40px;
+      } */
+    
+      .ewdfhyewuf65444{
+        row-gap: 20px !important;
+       }
+      
+      .dsewwsdw3qqqs2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        height: 120px;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+      }
+    
+      
+    .vvbvcxxzaswwqqqqw label {
+      width: 150px !important;
+    }
+      
+    .appointment h4{
+      font-size: 14px !important;
+    }
+    /* .chart_table_anathes{
+      width: 10px;
+    } */
+      }
+    
+    
+    
+    
+      @media screen and (max-width:1260px) {
+        .OtMangement_con{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;    
+            text-align: center;
+       
+      }
+    
+      .cenetrOt_singn_date_tym{
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+      .cenetrOt_singn_date_tym label{
+        width: 230px;
+      }
+    
+      .Otdoctor_intra_Con_udy6d{
+        flex-direction: column;
+    
+      }
+      .gtrtrdyut554{
+        flex-direction: column !important;
+      }
+      .wqsxwqqq label{
+        width: 200px !important;
+       }
+    
+    
+       /* .ewdfhyewuf65{
+        row-gap: 50px;
+       } */
+    
+       .ewdfhyewuf65444{
+        row-gap: 10px !important;
+       }
+    
+      
+    
+       .djkwked675 input{
+        width: 130px;
+       }
+       .dsewwsdw3qqqs2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        height: 120px;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+      }
+    
+      
+    .vvbvcxxzaswwqqqqw label {
+      width: 140px !important;
+    }
+    
+    .djkwked67eee5 {
+    align-items: self-start;
+      gap: 15px;
+    }
+    
+    }
+    
+    @media screen and (max-width:785px) {
+      .nurse_sign_capte45_head23{
+        flex-direction: column;
+        gap: 10px;
+       }
+    
+       .nurse_sign_capte45{
+        flex-direction: column;
+        gap: 8px;
+       }
+    
+       .nurse_sign_capte45_head {
+        flex-direction: column;
+        row-gap: 30px;
+       }
+    
+       .nurse_sign_capte45 h5{
+        width: 150px;
+        justify-content: center;
+        gap: 10px;
+        background-color: var(--selectbackgroundcolor);
+        border-radius: 5px;
+        padding: 5px;
+       }
+    
+       .wqsxwqqq label{
+        width: 200px !important;
+       }
+    
+    }
+    
+    
+    @media screen and (max-width:650px) {
+      
+    
+        .OtMangementForm_1 label{
+            width: 120px;
+        }
+    
+        .label_extra_width label{
+          width: 160px;
+        }
+    
+        .OtMangementForm_1_checkbox{
+    
+          width: 115px;
+         }
+    
+         .OtMangementForm_1_checkbox_2222{
+    
+          width: 50px !important;
+         }
+    
+        .OtMangementForm_1_checkbox label{
+            width: 25px ;
+        }
+    
+        .cenetrOt_singn_date_tym_2{
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .cenetrOt_singn_date_tym label{
+          width: 150px !important;
+        }
+    
+        .clm_chse_dte_tym_0{
+     gap: 5px !important;
+        }
+    
+        .date_stle_OT{
+            width: 95px;
+        }
+    
+        .text_adjust_mt_Ot{
+            flex-direction: column;
+        }
+    
+        .text_adjust_mt_Ot textarea{
+            width: 90%;
+        }
+    
+        .text_adjust_mt_Ot label{
+            justify-content: center;
+            gap: 5px;
+        }
+    
+        .Otdoctor_intra_Con_2 textarea {
+            width: 90%;
+        }
+    
+        .Otdoctor_intra_Con_2_input{
+            flex-direction: column;
+        }
+    
+        .Otdoctor_intra_Con_2_input label{
+            justify-content: center;
+            gap: 10px;
+        }
+    
+        .OtMangementForm_1_checkbox_Intraaaaa label{
+            width: 80px;
+        }
+    
+        .Otdoctor_intra_Con_2_input{
+            gap: 10px;
+        }
+    
+        .Otdoctor_intra_Con_udy6d{
+            gap: 20px;
+        }
+    
+        .swsxwdef7ujn textarea{
+            width: 80% !important;
+            height: 60px;
+              }
+    
+    
+              .jdcneuir8o34di{
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                     }
+    
+    
+                     .OtMangement_con_santhu{
+                      justify-content: center;
+                      align-items: center;
+                      row-gap: 20px;
+                      flex-direction: column;
+                     }
+    
+                     .swsxwdef7ujn textarea{
+                      width: 90% !important;
+                     }
+    
+                     .euiwd6745q3 textarea{
+                      width: 70% !important;
+                     }
+    
+    
+                     .wsdsceew_33{
+                      justify-content: center !important;
+                      align-items: center;
+                      text-align: center;
+                     }
+                
+                     .u78i7{
+                      flex-direction: column;
+                     }
+    
+                     .lokm89 span{
+                      width: 0px !important;
+                      }
+    
+                      .ecdeeedrdfdf{
+                        justify-content: center;
+                      }
+    
+                      .edwue662l label{
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 230px !important;
+                        font-size: 13.5px;
+                      
+                        
+                      }
+    
+                      .edwue662l_22 label{
+                        width: 230px !important;
+                      }
+    
+                      .wsdsceew label{
+      width: 120px !important;
+                      }
+                      
+    }
+    
+    @media screen and (max-width:900px) {
+      .OtMangement_con_headerey7{
+        flex-direction: column;
+        justify-content: center;
+      }
+    }

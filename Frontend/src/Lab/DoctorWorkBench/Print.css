@@ -1,0 +1,15 @@
+body {
+    display: none;
+  }
+  
+  .total_preview_container {
+    display: block;
+  }
+  
+  /* Define the print-specific styles for your preview content */
+  .total_preview {
+    /* Your styling for the preview content when printed */
+    background-color: white;
+    padding: 20px;
+    /* Add more print-specific styles as needed */
+  }

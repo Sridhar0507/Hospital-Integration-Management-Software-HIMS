@@ -1,0 +1,400 @@
+.image-container {
+  position: relative;
+  margin: 10px;
+  max-width: 100%; /* Set maximum width to ensure responsiveness */
+  border: 2px solid var(--ProjectColor);
+  padding: 20px;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  overflow: hidden; 
+}
+
+.web_camera_svg{
+  /* width: 450px !important;
+  height: 300px !important;
+  position: relative;
+  width: 100%;
+  height: 100%; */
+
+  position: relative;
+  margin: 10px;
+  max-width: 100%; /* Set maximum width to ensure responsiveness */
+  border: 2px solid var(--ProjectColor);
+  padding: 20px;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  overflow: hidden; 
+}
+.web_camera_svg img{
+  width: 85%;
+  height: 100%;
+}
+.web_camera_svg svg{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100% ;
+  height: 100%;
+}
+.image_ANNNNT {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensure image is displayed as block element */
+}
+
+.annotation-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.annotation {
+  position: absolute;
+  width: 3%; /* Adjust as needed */
+  height: 9.5%; /* Adjust as needed */
+  border: 2px solid red;
+  border-radius: 50%; /* Ensures the shape is a circle */
+  transform: translate(-50%, -50%); /* Center the circle on its coordinates */
+}
+
+.annotation-buttons {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: var(--selectbackgroundcolor);
+  padding: 3px 8px 3px 3px;
+  border-radius: 10px;
+
+}
+
+.annotation-buttons button {
+  margin-left: 5px;
+  background: none;
+  width: 20px !important;
+  height: 30px !important;
+  border: none;
+  cursor: pointer;
+  font-size: 20px !important;
+}
+
+.annotation-buttons button:hover {
+  color: blue;
+}
+
+.annotation.current {
+  border: 2px solid blue; /* Add border to highlight current annotation */
+}
+
+
+.wdqqwqxxz{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.wdqqwqxxz label{
+  display: flex;
+  font-size: var(--fontsize);
+  font-weight: bold;
+  /* width: 120px; */
+}
+
+.qwdw33wew2sd input{
+  width: 16px;
+  height: 16px;
+}
+
+.cccccccbbn{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.wdqqwqxxz textarea{
+  width: 280px;
+  height: 50px;
+  padding: 5px;
+}
+
+.dccffcfc5 input{
+  width: 16px;
+  height: 16px;
+  
+  transform: scale(1.2);
+}
+
+.jyutr input{
+width: 50px;
+padding: 5px;
+border: 1px solid var(--ProjectColor);
+border-radius: 5px;
+text-align: center;
+outline: none;
+}
+
+.jjklkj1{
+  width: 125px;
+}
+
+
+.ddddd445 label{
+  width: 140px;
+}
+
+.EWFERYU7KUILP7{
+display: flex;
+width: 200px;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 30px;
+}
+
+.EWFERYU7KUILP7 textarea{
+height: 30px;
+padding: 5px;
+width: 100px;
+}
+
+.dedwe span{
+width: 10px !important;
+}
+
+.uedoiopp099 {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+gap: 10px;
+
+}
+
+.yhdy67666{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 10px;
+
+}
+
+.jhwdhjw{
+margin-left: 5px;
+}
+
+.yhdy67666 label{
+width: 80px !important;
+}
+
+.kjwiu36220{
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+
+}
+.nnnmmcbb4{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+/* width: 300px;     */
+}
+
+.mjd6sw{
+display: flex;
+justify-content: center;
+flex-direction: column;
+row-gap: 20px;
+}
+
+.kju span{
+width: 0px !important;
+}
+
+.mjd6sw label{
+width: 175px !important;
+}
+
+.ejkk label{
+width: 150px !important;
+}
+.hfdtrft5{
+width: 200px;
+height: 50px;
+padding: 5px;
+}
+.jejduw7{
+gap: 35px;
+}
+
+.juyuyy80{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 10px;
+}
+
+.jejduw7{
+display: flex;
+}
+
+@media screen and (max-width:1260px) {
+.EWFERYU7KUILP7{
+  flex-direction: column;
+  row-gap: 4px;
+  justify-content: flex-start;
+
+}
+
+.EWFERYU7KUILP7 textarea{
+  width: 100px;
+}
+
+.jejduw7{
+flex-direction: column !important;
+}
+
+.juyuyy80{
+gap: 70px;
+}
+.ueuhuedj{
+flex-direction: column;
+row-gap: 10px !important;
+
+}
+
+.hjwqhyss label{
+width: 300px !important;
+}
+
+.hfdtrft5{
+width: 370px;
+}
+
+.hjwqhyss{
+width: 390px !important;
+}
+
+}
+
+
+@media screen and (max-width:600PX) {
+
+
+  .annotation {
+      position: absolute;
+      width: 2%; /* Adjust as needed */
+      height: 6%; /* Adjust as needed */
+      border: 1px solid red;
+      border-radius: 50%; /* Ensures the shape is a circle */
+      transform: translate(-50%, -50%); /* Center the circle on its coordinates */
+    }
+
+    .annotation-buttons button {
+      margin-left: 5px;
+      background: none;
+      width: 15px !important;
+      height: 20px !important;
+      border: none;
+      cursor: pointer;
+      font-size: 14px !important;
+    }
+
+    .annotation-buttons {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: var(--selectbackgroundcolor);
+      padding: 0px 5px 0px 0px;
+      border-radius:5px;
+   
+    }
+
+    .ddddd445{
+      width: 130px !important;
+      align-items: center;
+    }
+
+    .juyuyy80{
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .yhdy67666{
+      justify-content: flex-start;
+      align-items: self-start;
+    
+    }
+
+    .ueuhuedj{
+      flex-direction: column;
+      row-gap: 10px !important;
+ 
+    }
+
+    .hjwqhyss{
+      width: 250px !important;
+    }
+
+    .hfdtrft5{
+      width: 230px;
+    }
+
+
+}
+
+
+@media print {
+
+  @page {
+      size: A4;
+      margin: 0;
+      padding: 10px;
+      margin-top: 20px !important;
+      margin-bottom: 20px !important;
+    }
+
+    .ewjkdnwejd{
+      width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #fff;
+  gap: 5yy0px;
+    }
+
+    .dedwe33{
+      /* width: 1000px !important;
+      d */
+
+      display: flex !important;
+    }
+
+    .jewj33j{
+      width:240px !important ;
+    }
+
+    .ueuhuedj{
+      flex-direction: column;
+      row-gap: 10px !important;
+    }
+
+    
+
+    
+}

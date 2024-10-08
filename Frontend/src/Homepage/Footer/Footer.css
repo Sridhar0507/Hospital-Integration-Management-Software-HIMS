@@ -1,0 +1,116 @@
+.footer {
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  position: fixed;
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  background-color: #e9e9e9;
+  width: calc(100% -50px);
+  margin-left: 50px;
+
+}
+
+.blossom-logo {
+  font-weight: bold;
+  color: var(--ProjectColor);
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+
+}
+
+.footer-links div {
+  display: flex;
+  margin: 0 10px;
+  color: #006400;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.termsofuseclr {
+  color: #001F3F !important;
+  cursor: pointer;
+}
+
+.footer-links div:hover {
+  text-decoration: underline;
+}
+
+
+
+/* CSS for Privacy Policy Page */
+
+/* General styling */
+.plcy_trms_contn {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Heading styling */
+.plcy_trms_contn h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.plcy_trms_contn p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Links styling */
+.plcy_trms_contn div {
+  color: var(--ProjectColor);
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  .plcy_trms_contn {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .plcy_trms_contn h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .plcy_trms_contn p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+    background-color: #e9e9e9;
+    width: 100%;
+    margin-left: 0px;
+  
+  }
+}

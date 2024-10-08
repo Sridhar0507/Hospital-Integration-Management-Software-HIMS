@@ -1,0 +1,633 @@
+
+/* input[type="number"] {
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+} */
+
+
+
+
+
+
+
+
+.ffff {
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+
+
+.aaa {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+
+
+.checkbox-label_ooo {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.textarea-wide1{
+    width: 60%; /* Adjust the width as needed */
+    height: 50px;
+    padding: 5px;
+}
+
+
+
+
+
+.health-habits-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .women-section, .men-section {
+    width: 48%;
+  }
+
+
+
+
+.textarea-wide {
+    width: 600px; /* Adjust the width as needed */
+    height: 60px;
+  }
+  .RegisForm_2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+.RegisForm_2 label {
+    width: 120px;
+    display: flex;
+    font-size: var(--fontsize);
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+    gap: 10px;
+    color: var(--labelcolor);
+}
+
+
+.assmet_cbg{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    /* gap: 25px; */
+    justify-content: center;
+}
+
+.ass_chdgtt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.ass_pocd label{
+    display: flex;
+    width: 120px !important;
+    justify-content: space-between;
+    font-size: var(--fontsize);
+    font-weight: bold;
+}
+
+.wdvw_yd input{
+    font-size: 20px;
+    width: 20px !important;
+    height: 16px !important;
+}
+
+.wdvw_yd label{
+    width: 30px !important;
+}
+
+
+
+.checkbox-group {
+    display: block;
+  }
+  
+  .checkbox-group input[type="checkbox"],
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 5px; /* Add margin between checkbox groups */
+  }
+  
+
+  @media (max-width: 1260px) {
+    .assmet_cbg{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /*  MedicalHistoryForm.css*/
+
+
+
+  
+.form-section5 {
+    /* Ensure there is enough space for both sections */
+    width: 100%;
+    max-width: 1200px; /* Adjust as per your design */
+    margin: 0 auto; /* Center the form-section5 horizontally */
+  }
+  
+  .health-habits-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Spacing between items */
+  }
+  
+  .women-section,
+  .men-section {
+    flex: 1; /* Equal width for both sections */
+  }
+  
+  .aaa {
+    text-align: center; /* Center align the text */
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  @media (max-width: 768px) {
+    /* Media query for smaller screens (adjust as needed) */
+    .health-habits-container {
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+    }
+  
+    .women-section,
+    .men-section {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  
+  
+  
+  .Medical_History_container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .Medical_History_logo {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    
+    .Medical_History_logo_img {
+      width: 100px;
+      height: auto;
+      margin-right: 20px;
+    }
+    
+    .form-section5 {
+      margin-top: 10px;
+    }
+    
+    .form-field5 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 5px;
+    }
+    
+    .form-field5 label {
+      width: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      font-weight: bold;
+      align-items: center;
+      font-size: 15px;
+      font-weight: bold;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--labelcolor);
+    }
+  
+  
+    .form-field5 input[type="text"]{
+      width: calc(100% - 120px);
+      padding: 8px;
+      border: none;
+      border-bottom: 1px solid var(--ProjectColor);
+      border-radius: 4px;
+    }
+  
+    .form-field5 textarea {
+      width: calc(100% - 120px);
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .form-field5 textarea {
+      height: 30px;
+    }
+    
+    .form-field5 h3 {
+      color: var(--ProjectColor);
+      font-size: 18px;
+  
+    }
+  
+    .dkwjd{
+      display: flex;
+      gap: 10px;
+      /* width: 925px; */
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      
+    }
+    .dkwjd h5{
+      display: flex;
+  
+      font-size: 13px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+  
+    .checkbox-label_ooo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 7px;
+      font-size: 12px;
+      width: 200px;
+      /* font-weight: bold; */
+    }
+    
+    .checkbox-input {
+      margin-right: 10px;
+    }
+    
+    .div_ckkck_box{
+      /* width: 200px;
+      padding-right: 10px; */
+      border-right: 1px solid var(--ProjectColor);
+    }
+  .div_ckkkbox_head{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+  .alcho_tac_drg11{
+    
+      border: none;
+  }
+  .alcho_tac_drg{
+      display: flex;
+  
+      gap: 20px;
+      justify-content: space-between;
+      align-items: center;
+      text-align: start;
+  }
+  
+  .alcho_tac_drg label{
+    display: flex;
+    margin-bottom: 0px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+  .sccx3{
+    justify-content: flex-start !important;
+  }
+  .alcho_tac_drg11 label{
+      width:130px;
+  }
+
+
+  .ffdff44{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+  
+  }
+
+  .women_head_men h5{
+    text-align: center;
+  }
+
+  .dkwjd h3{
+    background-color: var(--selectbackgroundcolor) !important;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .flx_cjk_labl3{
+    display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  
+  }
+  .form-section56{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    font-size: 12px;
+  font-weight: bold;
+    justify-content: space-between;
+  }
+  .form-section56 input{
+    border: none;
+  
+    border-bottom: 1px solid var(--ProjectColor);
+  }
+
+  .form-field56 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+  .form-field56 input{
+    width: 150px;
+  }
+  /* .alcho_tac_drg label{
+      width: 900px !important;
+  } */
+  
+  
+  .txtare_div_surgical_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    gap: 20px;
+  }
+  
+  .txtare_div_surgical{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  } 
+  
+  .txtare_div_surgical label{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    width: 250px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .txtare_div_surgical textarea{
+  
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+  }
+  
+  .text_fr_surgcl_lbld , .text_fr_surgcl_0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .iqw7{
+    display: flex;
+    text-align: start;
+    width: 100px;
+  }
+  .oii8u{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 315px;
+    text-align: center;
+  
+  }
+  .sdxsxc343{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .sdxsxc343 label
+  {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight:500;
+    width: 180px;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: center;
+  }
+  
+  .sdxsxc343 input
+  {
+    width: 80px;
+    border: none;
+    border-bottom:  1px solid var(--ProjectColor);
+  }
+
+  
+  .women_chk_box{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .w99jdid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    /* width: 340px; */
+   
+  }
+  
+  .weedcvt65{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .women_chk_box h5{
+    font-weight: bold;
+  }
+  
+  .women_head_men{
+    display: flex;
+    justify-content: center;
+    /* gap: 20px;
+    text-align: center;
+    align-items: flex-start; */
+  }
+  .w99jdid_head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .weedcvt65_head label{
+    display: flex;
+    width: 125px;
+    font-weight: bold;
+    font-size: 12px;
+
+  }
+  
+  .iojiu7{
+  
+    width: 60px;
+    border: none;
+    margin-left: 1px;
+    border-bottom: 1px solid var(--ProjectColor);
+  }
+
+
+  .form-section522{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .jdjjuud_0op{
+    justify-content: center !important;
+    gap: 15px;
+  }
+
+
+
+  @media print {
+    body {
+        font-size: 12px; /* Adjust the font size as needed */
+        font-family: Arial, sans-serif;
+      }
+      .print-button3{
+        display: none;
+      }
+   .Medical_History_container{
+    position: relative;
+    top: 150px;
+   }
+  
+      @page :first {
+        margin-bottom: -4cm;
+        margin-top: -1.5cm;
+        
+      }
+    @page :right {
+        margin-right: 1.5cm;
+      }
+  }
+  
+  @media print {
+    .hide-print-button {
+        display: none !important;
+    }
+  }
+  
+  
+  @media screen and (max-width:768px){
+  
+    .div_ckkkbox_head{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+  .sccx3{
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: flex-start !important;
+  }
+  
+
+
+  .text_fr_surgcl_lbld, .text_fr_surgcl_0{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .oii8u{
+    width: 260px;
+  }
+  .txtare_div_surgical textarea{
+  
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+  }
+  .txtare_div_surgical label{
+    width: 100px;
+  } 
+
+
+  .w99jdid{
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .nnn_prcx3{
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0px !important;
+    margin-top: 10px;
+  }
+
+  .flx_cjk_labl3{
+    justify-content: flex-start;
+   
+  }
+}
+
+@media screen and (max-width:450px){
+  .flx_cjk_labl3{
+    justify-content: center !important;
+  }
+}

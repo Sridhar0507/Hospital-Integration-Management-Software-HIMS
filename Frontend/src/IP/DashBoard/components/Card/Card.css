@@ -1,0 +1,214 @@
+.CompactCard {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  flex: 1;
+  height: 7rem !important;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+  width: 230px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: black;
+  transition: opacity 0.3s ease, filter 0.3s ease, color 0.3s ease;
+
+}
+
+.CompactCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(90%) contrast(50%); /* Add contrast here */
+  z-index: 0; 
+  transition: filter 0.3s ease;
+}
+
+.CompactCard:hover::before {
+  filter: grayscale(0%); 
+  transform: scale(1.05);
+
+}
+
+.CompactCard .content_pp {
+  position: relative;
+  z-index: 1; 
+  color: white; 
+
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;
+  height: 100%; 
+  position: relative;
+}
+
+.CompactCard .title_pl {
+  position: absolute; 
+ font-size: 15px;
+  color: white; 
+  background-color:rgb(73, 73, 73);
+  font-weight: bold;
+  border-radius: 3px; 
+}
+
+.title_pl{
+  padding: 0px 5px;
+}
+
+.CompactCard:hover .title_pl {
+color: white;
+/* background-color: rgb(75, 75, 75);
+padding: 2px 5px;
+border-radius: 5px; */
+font-weight: bold;
+}
+.CompactCard:not(:hover) .content_pp {
+  color: yellow;
+}
+
+.CompactCard:hover .content_pp {
+  color: white; 
+
+}
+
+
+.CircularProgressbar {
+  width: 4rem !important;
+  overflow: visible;
+}
+.CircularProgressbar-path {
+  stroke: white !important;
+  stroke-width: 12px !important;
+  filter: drop-shadow(2px 4px 6px white);
+}
+.CircularProgressbar-trail {
+  display: none;
+}
+.CircularProgressbar-text {
+  fill: white !important;
+}
+
+.radialBar span{
+  width: 200px !important;
+}
+.radialBar > span {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* sideDetail*/
+.CompactCard .detail {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100%; 
+  width: 100%; 
+  font-size: 35px !important;
+}
+
+.CompactCard .detail > svg, .CompactCard .detail > img { 
+  width: 35px;
+  height: 35px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 20px;
+}
+
+
+.detail > span:nth-child(2) {
+  font-size: 22px;
+  font-weight: bold;
+}
+.detail > span:nth-child(3) {
+  font-size: 12px;
+}
+
+/* ExpandedCard */
+.ExpandedCard {
+  position: absolute;
+  width: 70%;
+  height: 83vh;
+  top: 15%;
+  z-index: 9;
+  left: 10rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  color: white;
+  overflow: hidden; 
+  background: rgba(0, 0, 0, 0.3); 
+}
+
+.ExpandedCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(25%) grayscale(0%); 
+  z-index: -1; 
+}
+
+.ExpandedCard > span:nth-of-type(1) {
+  color: yellow;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-shadow: 0px 0px 15px white;
+}
+
+.ExpandedCard > span:nth-of-type(2) {
+  color: rgb(236, 236, 236);
+  font-size: 15px;
+}
+
+.chartContainer {
+  width: 70%;
+  color: black !important;
+  background-color:beige;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .ExpandedCard {
+    top: 15%;
+    height: 70vh;
+    left: 7rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .ExpandedCard {
+    top: 8rem;
+    height: 70%;
+    left: 14%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .ExpandedCard { 
+    height: 50%;
+    left: 10%;
+}}

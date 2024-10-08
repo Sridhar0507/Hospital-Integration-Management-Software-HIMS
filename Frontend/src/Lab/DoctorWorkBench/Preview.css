@@ -1,0 +1,432 @@
+.total_preview_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 8px ;
+    padding-bottom: 8px; */
+
+
+    padding: 20px 0px;
+}
+.total_preview{
+   padding: 10px !important;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border: 2px solid var(--ProjectColor);
+   gap: 10px;
+   width: 60%;
+}
+.t_p_header{
+    width: 100%;
+    height: 150px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.t_p_h1{
+    height: 130px;
+    width: 130px;
+}
+.t_p_h2{
+    height: 130px;
+    width: calc(100% - 390px);
+    padding: 5px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.t_p_h3{
+    height: 130px;
+    width: 260px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.t_p_h1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.t_p_h2 h3 ,.t_p_b1_h h3,.t_p_b1 h3{
+    margin: 0px !important;
+    font-size: 16px;
+    color: var(--labelcolor);
+}
+.t_p_h3 div,.t_p_b1 div{
+    display: flex;
+    gap: 5px;
+}
+.t_p_h3 div label {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+    color: var(--labelcolor);
+}
+.t_p_h3 div label span{
+    color: var(--labelcolor);
+}
+.t_p_h3 div span{
+    color: grey;
+}
+.t_p_body{
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.t_p_b1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 5px;
+    border-bottom: 1px solid var(--ProjectColor);
+}
+.new_address{
+    width: 200px;
+    height: auto;
+    padding:0px 5px;
+    box-sizing: border-box;
+}
+.t_p_b1 div label{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    
+    color: var(--labelcolor);
+}
+.t_p_b1 div textarea{
+    outline: 0px;
+    border: 0px;
+    padding: 5px;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px 5px rgb(231, 229, 229);
+    margin-bottom: 10px;
+}
+.t_p_b1_h_body{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 120px;
+    padding-left: 10px;
+    
+}
+.t_p_b1_img{
+    width: calc(100% - 200px);
+    display: block !important;
+    
+}
+.t_p_b1_img div{
+    margin-top: 10px;
+}
+.new_body_con{
+    display: flex ;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.t_p_b1_img1{
+    width: 200px;
+    height: 200px;
+}
+.t_p_b1_img1 img,.t_p_b1_h_body2_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.t_p_b1_h h3,.new_body_con h3{
+    width: 100%;
+    text-align: left !important;
+}
+.t_p_b1_h{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t_p_b1_img{
+    width: 80%;
+}
+.new_b_image{
+    width: 80%;
+}
+.t_p_b1_h_body2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.t_p_b1_h_body2 label{
+    color: var(--labelcolor);
+}
+.t_p_b1_h_body2_img{
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+}
+.print_button{
+    background-color: var(--ProjectColor);
+    border: 0px;
+    outline: 0px;
+    border-radius: 15px;
+    height: 30px;
+    width:100px;
+    position: relative;
+    left: 40%;
+    margin: 10px;
+}
+
+.print_button:hover{
+    background-color: var(--ProjectColorhover);
+    color: var(--projectwhite);
+    cursor: pointer;
+}
+
+
+.t_p_b1_h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t_p_b1_h table {
+    width: 40%;
+    border-collapse: collapse;
+    border-radius: 10PX;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 2px #c4b9b9;
+    margin-bottom: 10px;
+    
+  }
+  .t_p_b1_h table thead {
+    color: var(--labelcolor);
+    font-size: 10px;
+  }
+  .t_p_b1_h table tbody{
+    font-size: 10px;
+  }
+  .t_p_b1_h th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+   .t_p_b1_h tr:nth-child(even) {
+    background-color: rgba(224, 221, 223, 0.384); 
+  }
+  .t_p_b1_h th {
+    background-color: var(--ProjectColor);
+  }
+  
+  .t_p_b1_h tr:hover {
+    background-color:var(--ProjectColorhover);
+
+}
+
+.t_p_h2 label{
+    padding-top: 4px;
+}
+
+.bill_body32{
+    display: flex;
+    justify-content:  flex-start !important;
+    align-items: center;
+    text-align: center;
+}
+
+.dkjfiuw6{
+    display: flex;
+    text-align: start !important;
+    justify-content: flex-start !important;
+    align-items: center;
+    font-size: 13px !important;
+    width: 100%;
+    /* font-weight: b; */
+}
+
+.bill_body3233{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bill_body3233 label{
+
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dkjfiuw622{
+    width: 130px !important;
+}
+
+.total_con_bill234{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.new_preview_div{
+    width: 100%;
+    display: flex;
+    color: grey;
+    gap: 10px;
+  }
+  
+  .new_preview_div label{
+    width: 200px;
+    display: flex;
+    color: var(--labelcolor);
+    justify-content: space-between;
+  }
+
+
+
+@media print {
+    @page {
+        size: A4;
+        margin: 0;
+      }
+    body {
+        font-size: 12px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .print_button {
+        display: none;
+    }
+
+    .total_preview_container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        page-break-before: auto;
+        page-break-after: auto;
+        page-break-inside: avoid;
+    }
+
+    .total_preview {
+        padding: 10px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* max-width: 100%; */
+        width: 650px;
+        background-color: white;
+    }
+
+    .t_p_b1_h{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .t_p_b1_h table {
+        width: 80%;
+        border-collapse: collapse;
+        border-radius: 10PX;
+        overflow: hidden;
+        box-shadow: 1px 1px 5px 2px #c4b9b9;
+        margin-bottom: 10px;
+        
+      }
+      .t_p_b1_h table thead {
+        color: var(--labelcolor);
+        font-size: 10px;
+      }
+
+      .t_p_b1_h table tbody{
+        font-size: 10px;
+      }
+      .t_p_b1_h th, td {
+        padding: 5px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+      }
+     
+       .t_p_b1_h tr:nth-child(even) {
+        background-color: rgba(224, 221, 223, 0.384); 
+      }
+      .t_p_b1_h th {
+        background-color: var(--ProjectColor);
+      }
+      
+      .t_p_b1_h tr:hover {
+        background-color:var(--ProjectColorhover);
+    }
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+    
+      .total_preview_container {
+        /* Adjust margin and padding as needed */
+        margin: 0;
+        padding: 0;
+      }
+    
+     
+      .total_preview {
+        font-size: 12px;
+        padding: 10px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100%;
+        width: 650px;
+        background-color: var(--ProjectColor);
+      }
+    
+      .total_preview,
+      .t_p_header,
+      .t_p_body {
+        background-color: transparent;
+      }
+  
+}
+

@@ -1,0 +1,28 @@
+
+
+
+.chk-font{
+    font-size: 12px;
+}
+
+.aghwtwe_u433ej{
+    display: flex;
+    justify-content: flex-start;
+    row-gap: 5px;
+    flex-direction: row;
+}
+
+
+
+.chk_j {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+}
+
+
+.chk_j input{
+    width: 15px;
+    height: 15px;
+}

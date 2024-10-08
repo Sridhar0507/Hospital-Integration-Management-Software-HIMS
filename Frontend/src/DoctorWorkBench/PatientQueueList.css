@@ -1,0 +1,710 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Container styles */
+.appointment {
+  padding: 10px;
+}
+
+/* Header styles */
+.h_head {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 5px;
+  color: var(--labelcolor);
+  background-color: var(--ProjectColor);
+}
+
+/* Form container styles */
+.con_1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 20px 0px;
+  margin: 10px 0px;
+}
+
+/* CSS for the parent container */
+.grid_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* Input styles */
+
+
+.inp_1 input {
+
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 10px 5px;
+  color: var(--labelcolor);
+}
+
+.inp_1 input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.inp_1 input::placeholder {
+  color: rgb(151, 150, 150);
+}
+
+.inp_1 label {
+  color: var(--labelcolor);
+  width: 100px;
+}
+
+/* Label animation for input focus */
+.inp_1 input:focus+label,
+.inp_1 input:not(:placeholder-shown)+label {
+  top: -12px;
+  font-size: 12px;
+  color: #333;
+}
+
+/* Search button styles */
+.btn_1 {
+  border: none;
+  background-color: var(--ProjectColor);
+  color: var(--labelcolor);
+  cursor: pointer;
+  width: 100px;
+  border-radius: 25px;
+  height: 35px;
+}
+
+.cell_btn {
+  font-size: 12px !important;
+  color: var(--labelcolor) !important;
+}
+
+/* Data grid styles */
+.data_grid {
+  border: none;
+  width: 100%;
+  overflow-x: auto;
+
+}
+
+/* Pagination styles */
+.grid_foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.grid_foot button {
+  margin: 0px 10px;
+  background-color: var(--ProjectColor);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* Data grid styles */
+.MuiDataGrid-root {
+  width: 95%;
+  max-width: max-content;
+
+}
+
+/* Hide scrollbars */
+.data_grid::-webkit-scrollbar {
+  display: none;
+}
+
+.data_grid {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.neww_1{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+
+
+.doctor_select_1 select {
+  border: 0px;
+  outline: 0px;
+  width: 120px;
+  /* margin-left: 10px; */
+  color: var(--labelcolor);
+  background-color: var(--ProjectColor);
+  /* height: 20px!important; */
+}
+
+.selt-dctr-nse select{
+  width: 120px;
+  border: var(--projectwhite) !important;
+}
+.Qdrop{
+  color: var(--labelcolor);
+
+}
+
+.srch-clr-chg{
+  color: var(--labelcolor);
+}
+
+.edit-edit34{
+  color: var(--labelcolor);
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+/* Responsive media query */
+@media (max-width: 768px) {
+  .con_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .h_head h3{
+    font-size: 15px;
+  }
+  .inp_1,.inp_1 input::placeholder,.MuiDataGrid-cell,.MuiDataGrid-columnHeader{
+    font-size: 12px;
+  }
+  
+  .MuiDataGrid-root {
+    width: 80%;
+
+  }
+
+  .data_grid {
+    overflow-x: hidden;
+  }
+  .modal_11{
+    width: 300px !important;
+  }
+
+}
+@media (min-width:769px) and (max-width:1024px) {
+ 
+  .MuiDataGrid-root {
+    width: 90%;
+
+  }
+  .data_grid {
+    overflow-x: hidden;
+  }
+}
+
+/* css for billingInvoice and ImgPreview */
+.billing {
+  padding: 10px;
+}
+
+
+.img_section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.img_1 {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.img_1 input {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img_2 {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(212, 212, 210);
+}
+
+.img_2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.img_btn {
+  margin-top: 20px;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_btn button {
+  width: 120px;
+
+}
+
+.inp_2 {
+  width: 100%;
+  margin: 15px 0px;
+  border-bottom: 1px solid var(--ProjectColor);
+
+}
+.inp_2 label{
+  color: var(--labelcolor);
+  font-size: 12px !important;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+
+  .select_inp{
+    margin-bottom: 13px;
+    padding-bottom:14px;
+  }
+
+.inp_2 select option{
+  margin-bottom: 10px !important;
+}
+.inp_2 input  {
+  outline: none;
+  border: none;
+  font-size: 12px !important;
+  background-color: transparent;
+  padding: 10px 5px;
+  color: var(--labelcolor);
+  flex: 1;
+}
+
+.inp_2_textarea{
+  display: flex;
+  border: none;
+}
+.inp_2 textarea{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  box-shadow: 1px 1px 5px 5px rgb(231, 229, 229);
+  position: relative;
+  bottom: 5px;
+}
+
+
+.theralabel{
+  width: 555px !important;
+}
+
+@media (max-width: 768px)  {
+  .img_section {
+    display: flex;
+    flex-direction: column;
+    overflow-x:hidden ;
+    margin-left: 10px;
+  }
+}
+.bill_h{
+  width: 500px;
+}
+.bill_h label ,.bill_h input{
+  font-size: 20px !important;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.flex img{
+  height: 200px;
+  width: 350px;
+  object-fit: fill;
+  background-color: #ccc9c9;
+}
+.bill_table_invoice{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* no records */
+.norecords{
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  color: var(--labelcolor);
+}
+.bill_table_invoice .h_head{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.table_invoice{
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.table_head{
+  background-color: var(--ProjectColor);
+}
+.item_table table,.table_invoice table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#title_head{
+  width: 150px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  background-color: transparent;
+  box-shadow: 1px 1px 5px 5px rgb(231, 229, 229);
+}
+.select_title{
+  margin-bottom: 15px;
+}
+.select_inp{
+  margin-bottom: 15px;
+}
+
+.item_table td, .item_table th ,.table_invoice td,.table_invoice th{
+  border: 2px solid #fff;
+  text-align: left;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.item_table tr:nth-child(even),.table_invoice tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.phy_name{
+  width: 300px !important;
+}
+@media (max-width: 768px)  {
+  .table_invoice{
+    overflow-x: scroll;
+  }
+  .table_head,td, th{
+    font-size: 13px;
+  }
+  .amt_inp{
+    display: flex;
+
+  }
+  .amt_inp label{
+    margin-top: 10px;
+    width: fit-content;
+  }
+ .amt_inp input{
+    width: 50%;
+  }
+ 
+ #title_head{
+  margin-bottom: 15px;
+  width: 100px ;
+
+ }
+ .select_title{
+  margin-bottom: 15px;
+}
+
+  .phy_name{
+    width: 100% !important;
+    display: flex;
+    
+  }
+  .bill_h{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bill_h label, .bill_h input{
+    font-size: 14px !important;
+    width: 50%;
+    
+  }
+  .bill_h label{
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .flex{
+    display: block;
+  }
+  .inp_2 textarea{
+    width:50%;
+    height: 50px;
+  } 
+  .flex img{
+    height: 200px;
+    width: 350px;
+    object-fit: fill;
+    background-color: #ccc9c9;
+  }
+}
+
+
+
+/* tablet detials */
+.tablet_detials{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+ 
+}
+.tablet_detials_1{
+  width: 50%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--ProjectColor);
+}
+.tablet_detials_2{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--ProjectColor);
+}
+.tablet_detials_1_head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  height: 40px;
+  color: var(--labelcolor);
+  border-bottom: 1px solid var(--ProjectColor);
+}
+.tablet_detials_1_head h3{
+  
+  margin-left: 20px;
+}
+.tablet_detials_1_head button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0px;
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--labelcolor);
+}
+.tablet_detials_1_body{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20%;
+  padding-right: 10px;
+  margin: 20px;
+}
+.tablet_detials_1_body_1{
+  justify-content: space-around;
+}
+
+.t_d_detial h3{
+  color: var(--labelcolor);
+}
+.t_d_detial_1 p{
+  margin-right: 50px;
+}
+.t_d_detial p{
+  width: fit-content;
+}
+
+@media (max-width:768px){
+  .tablet_detials{
+    flex-direction: column;
+  }
+  .tablet_detials_1{
+    width: 100%;
+  }
+  .t_d_detial_1 p{
+    margin-right: 20px;
+  }
+  .tablet_detials_1_head h3{
+    font-size: 16px;
+  }
+  .t_d_detial p{
+    font-size: 14px;
+  }
+}
+/* billinginvoice new */
+
+.billingnew{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.billing_head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px 0px;
+  width: 100% !important;
+  margin-bottom: 10px;
+  background-color: var(--ProjectColor);
+}
+.billing_detials{
+  display: flex;
+  width: 90%;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+.billing_items{
+  width: 50%;
+}
+.billing_data{
+  margin-top: 10px;
+}
+.billing_data p{
+  margin-left: 10px;
+}
+.billing_data h3{
+  color: var(--labelcolor);
+  margin-bottom: 5px;
+}
+.item_info{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.billing_info_head{
+  color: var(--labelcolor);
+  width: 100%;
+  margin-top: 10px;
+}
+.item_table{
+  margin-top: 10px;
+  width: 80%;
+}
+.item_detials{
+  margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.item_detials_1{
+  width: 500px;
+  padding-right: 30px;
+  margin-top: 10px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phy_sign{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.phy_sign_img{
+  margin-top: 20px;
+  width: 150px;
+  height: 50px ;
+  background-color: #ccc9c9;
+}
+.phy_sign_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+
+
+
+/* medicine Group & Generic Medicine */
+
+.modal{
+  background-color: #12121247;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  display: grid;
+  place-items: center;
+  backface-visibility: visible;
+  position: fixed;
+  
+}
+.modal .con_1{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search_icon {
+  color: var(--labelcolor);
+}
+.modal_11{
+  background-color: #fff;
+  width: 500px;
+  padding: 20px;
+  position: relative;
+}
+.cancel_icon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--labelcolor);
+  cursor: pointer;
+}
+.btn_2 {
+  border: none;
+  background-color: var(--ProjectColor);
+  color: var(--labelcolor);
+  cursor: pointer;
+  width: 200px;
+  padding: 0px 10px;
+  border-radius: 25px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.del_grp{
+  margin-top: 10px;
+}

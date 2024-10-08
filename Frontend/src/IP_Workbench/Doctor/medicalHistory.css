@@ -1,0 +1,139 @@
+.RegisFormcon_1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-section5 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+  }
+  
+  .div_ckkck_box {
+    width: 200px;
+    padding-right: 30px;
+    /* border-right: 1px solid var(--ProjectColor); */
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    font-size: 11px;
+  }
+  
+  .checkbox-input {
+    margin-right: 10px;
+  }
+  
+  .form-section5 > .div_ckkck_box {
+    flex: 1;
+  }
+
+  
+
+  .dkwjd{
+    display: flex;
+    gap: 10px;
+    /* width: 925px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .dkwjd h5{
+    display: flex;
+
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dkwjd{
+    font-size: 10px;
+  }
+
+  .div_ckkkbox_head{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    align-items: flex-start;
+    text-align: start;
+}
+
+
+
+.sccx3{
+    justify-content: flex-start !important;
+}
+
+
+  .sccx3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+  }
+
+  .alcho_tac_drg{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.alcho_tac_drg label{
+    display: flex;
+    margin-bottom: 0px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+
+ 
+  .form-section56 input{
+    border: none;
+  
+    border-bottom: 1px solid var(--ProjectColor);
+  }
+
+
+  .form-section56 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 12px;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+  
+  }
+
+
+  .form-field56 label{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-field56 {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+  
+
+
+
+
+
+  

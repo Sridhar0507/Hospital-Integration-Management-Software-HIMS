@@ -1,0 +1,1791 @@
+
+.summary-container {
+  
+  padding: 10px;
+  border: 1px solid var(--ProjectColor);
+}
+
+.appointment{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+/* .summary-container > div {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:50px;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+} */
+.billing_container_form{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  row-gap: 10px;
+}
+.billing_container_form_sub{
+  padding: 0px 5px;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    gap: 5px;
+}
+.billing_container_form_sub label{
+  width: 120px;
+  display: flex;
+  height: 18px;
+  font-size: var(--fontsize);
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  text-align: start;
+  align-items: center;
+  gap: 10px;
+  /* color: var(--labelcolor); */
+  color: var(--ProjectColor);
+  font-size: 14px;
+}
+.billing_container_form_sub input {
+  width: 150px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    height: 18px;
+    text-align: center;
+    border: 1px solid var(--ProjectColor);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.billing_container_form_sub select{
+  width: 162px;
+  background-color: transparent;
+  border: 0px;
+  outline: 0px;
+  height: 30px;
+  display: flex;
+  background-color: var(--selectbackgroundcolor);
+}
+.summary-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: var(--ProjectColor);
+  color:var(--labelcolor) ;
+  width: 115px;
+}
+
+.summary-container input {
+  
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 123px;
+  max-height: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  outline: none;
+}
+
+.summary-container p {
+ 
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+.col-dwn-its{
+  display: flex;
+  flex-direction: column;
+  color: var(--labelcolor);
+
+}
+
+
+
+/* -------------------------- */
+
+.searching_input_icon3{
+  /* position: relative; */
+  /* left:160px; */
+  /* top: 7px; */
+  position: relative;
+  /* top: 50%; */
+   /* Adjust the value based on your design */
+  /* transform: translateY(-50%); */
+  cursor: pointer;
+/* right: 40px; */
+  color: var(--labelcolor);
+  background-color: transparent;
+  border: none;
+}
+.input-with-icon {
+  position: relative;
+}
+
+
+.searching_input_icon3 {
+  position: absolute;
+  right: 16px; /* Adjust the value as needed */
+  top: 52%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--labelcolor);
+  background-color: white;
+  border: none;
+}
+
+
+.newicon_regis {
+  position: relative;
+   top: 0px;
+   padding: 2px;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background-color: var(--selectbackgroundcolor);
+   color:  var(--labelcolor);
+ }
+
+.pay-cd-cd{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+.Action_btns{
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+.Addnamebtn
+{
+    background-color:var(--ProjectColor);
+    border: none;
+    color:var(--labelcolor);
+    height:20px;
+    
+}
+.delnamebtn{
+  border: none;
+  background-color: transparent;
+  height:30px;
+  color: var(--labelcolor);
+  width: 30%;
+  /* margin-left: 3px; */
+  cursor: pointer;
+  border-radius: 3px;
+}
+/* BillingInvoice Component Styles */
+.billing-invoice {
+  font-family: 'Arial', sans-serif;
+  max-width: 700px;
+  height: 100% !important;
+  overflow: auto !important; 
+  margin: 20px auto;
+  padding:6px !important;
+  border: 2px solid var(--ProjectColor);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+.billing-invoice_999 {
+  font-family: 'Arial', sans-serif;
+  max-width: 700px;
+  overflow: visible;
+  page-break-inside: auto; /* Allow page breaks inside the container */
+page-break-before: auto; /* Allow page breaks before the container */
+page-break-after: auto; /* Allow page breaks after the container */
+  margin: 20px auto;
+  padding:10px !important;
+  border: 2px solid var(--ProjectColor);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Header Styles */
+
+
+.Billing_Invoice_header
+{
+  text-align: center;
+  padding-top: 10px;
+  height: 50px;
+}
+
+
+.input-with-icon4 {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.searching_input_icon {
+  position: absolute;
+  right: 3px; /* Adjust the position of the search icon as needed */
+  top: 43px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--ProjectColor);
+  background-color: white;
+  border: none;
+  /* padding: 5px; */
+}
+
+
+
+.invoice_firstpart{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: auto;
+
+
+}
+.invoice_Secondpart{
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom:1px solid var(--ProjectColor);
+}
+
+.invoice-header {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.invoice-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Logo and Medical Center Address Styles */
+.invoice-logo-address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flex-logo-name {
+  display: flex;
+  gap: 10px;
+}
+
+.logo img {
+  max-width: 100px; /* Adjust the logo image size as needed */
+  height: auto;
+}
+
+.address {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.addr2 {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  /* border-bottom: 4px solid var(--ProjectColor); */
+}
+
+.addr3 {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.medical-center-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.full-address {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Invoice Details Styles */
+/* .invoice-details {
+
+  margin-top: 20px;
+  padding-top: 20px;
+} */
+
+.invoice-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.item-name,
+.item-quantity,
+.item-price,
+.item-total {
+  flex-basis: 25%;
+  text-align: left;
+}
+
+.bill-to1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-clm {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid var(--ProjectColor);
+}
+
+.invoce-lab-span {
+  display: flex;
+  gap: 20px;
+  text-align:left;
+  align-items: left;
+  justify-content: left;
+}
+
+.invoce-to2 {
+  display: flex;
+  row-gap: 25px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: flex-start;
+}
+
+/* Table Styles */
+.invoice-details table {
+  width: 100%;
+  border-collapse:separate;
+  /* overflow: scroll; */
+  margin-top: 20px;
+}
+
+.invoice-details th, .invoice-details td {
+  padding: 5px 5px;
+  font-size: 13px;
+
+  /* margin: 5px; */
+
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Table Header Styles */
+.invoice-details th {
+  background-color: var(--ProjectColor);
+  color: var(--labelcolor);
+  border-radius: 5px;
+  
+}
+.invoice-details td input { 
+  max-width:100px;
+  height: 20px;
+  position: relative;
+}
+.ItemName_searchicon{
+  position: relative;
+  left:5px;
+  top: 9px;
+  cursor: pointer;
+  color: var(--labelcolor);
+  background-color: white;
+  border: none;
+  margin-top: -10px;  
+}
+.itnm-icon{
+  position: relative;
+  left:215px;
+  top: 3px;
+  cursor: pointer;
+  color: var(--ProjectColor);
+  /* background-color: var(--ProjectColor); */
+  border: none;
+  /* margin-top: -10px;   */
+}
+
+.datlidt-mve-wth{
+  width: 100px;
+  margin-right: 20px;
+}
+.invoice-details td select {
+  max-width:220px;
+  height: 20px;
+
+}
+/* Table Row Styles */
+.invoice-details tbody tr:nth-child(even) {
+  background-color: rgba(224, 221, 223, 0.384);
+}
+
+
+/* Total, Paid Amount, and Balance Due Styles */
+.invoice-details {
+ border-top: 2px solid var(--ProjectColor);
+  /* margin-top: 20px;
+  padding-top: 20px; */
+}
+.invoice-details-1{
+  border-top: 2px solid var(--ProjectColor);
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice_detials_row{
+  width: 250px;
+  color: var(--labelcolor);
+}
+.invoice_detials_row label{
+display: flex;
+margin-bottom: 12px;
+}
+
+
+.invoice_detials_row label input{
+width: 100px;
+}
+
+.total-section,
+.paid-amount-section,
+.balance-due-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total-section span,
+.paid-amount-section span,
+.balance-due-section span {
+  flex-basis: 50%;
+  text-align:center;
+}
+
+.total-section span:last-child,
+.paid-amount-section span:last-child,
+.balance-due-section span:last-child {
+  color: var(--labelcolor);
+  font-weight: bold;
+}
+
+.delet-invce{
+  border: none;
+  outline: none;
+}
+
+.print-btn-invc{
+       display: flex;
+       position: relative;
+       left:40%;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+}
+.Select_billing{
+width: 60px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+
+.itm-name-pad th{
+padding: 10px;
+}
+
+.input-sech-fld input{
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid var(--ProjectColor);
+  outline: none;
+}
+.inpt-pad-btm{
+  margin-bottom: -20px;
+  width: 230px;
+}
+
+
+.slect-itm-detls-data{
+  height: 33px;
+  border-radius: 5px;
+  width: 150px;
+  padding: 5px;
+}
+
+.total-itm-detls-data{
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+
+.mannual-header-with{
+  width: 100%;
+
+}
+
+
+
+/* Add these styles to your existing stylesheet or in the <style> tag */
+
+/* Container div for the table with scrollbar */
+.Selected-table-container444 {
+  max-height: 400px; /* Adjust the max height as needed */
+  overflow-y: auto;
+}
+
+/* Style for the table */
+.selected-medicine-table222 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Add margin for better spacing */
+}
+
+/* Style for the table header */
+.selected-medicine-table222 th {
+  background-color: var(--ProjectColor);
+  border: 1px solid #ddd;
+font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Style for the table rows */
+.selected-medicine-table222 td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+.selected-medicine-table222 tbody tr {
+  height: 30px;
+}
+
+/* Style for the scrollbar */
+.Selected-table-container444::-webkit-scrollbar {
+  width: 12px; /* Width of vertical scrollbar */
+  height: 8px;
+ 
+}
+
+.Selected-table-container444::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+  background-color: var(--ProjectColor);
+  /* height: 10px; */
+}
+
+.Selected-table-container444::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ProjectColorhover); 
+}
+
+.Selected-table-container444::-webkit-scrollbar-track {
+  background: transparent; /* Track color */
+  /* height: 10px; */
+}
+
+.fix-pymt-mble{
+  display: flex;
+  gap: 5px;
+  /* flex-direction: column; */
+}
+
+.pymt-flx-with{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  row-gap: 30px;
+  padding: 5px;
+
+
+
+}
+
+.pymt-flx-with label{
+  background-color: transparent;
+  color: var(--labelcolor);
+  font-size: 15px;
+  width: 150px;
+  background-color:  var(--ProjectColor);
+}
+
+.pymt-flx-with input, select{
+  border-radius: 5px;
+  /* margin-left: 5px; */
+  padding: 5px;
+  height: 30px;
+  /* margin-bottom: 5px;    -------------------------this one */
+  width: 100%;
+  border-color: var(--labelcolor);
+  border: none;
+  outline: none;
+  background-color: var(--selectbackgroundcolor);
+}
+.pymt-flx-with input{
+  width: 160px;
+}
+
+.cah-d-wth{
+  display: flex;
+}
+
+.itm-flx-wth{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  row-gap: 15px;
+  padding: 5px 0px;
+  /* border-bottom: 1px solid  var(--ProjectColor); */
+}
+.px-line{
+  border-bottom: 1px solid  var(--ProjectColor);
+}
+
+
+.clm-itm-stl{
+display:flex;
+flex-direction: column;
+gap: 5px;
+justify-content: center;
+align-items: center;
+text-align: center;
+ 
+}
+.clm-pymt-stl{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* .sidebar_toggle1,.sidebar_toggle2{
+  display: none;
+}
+.content2,.content{
+  top: 10px !important;
+  left: 10px !important;
+
+ } */
+
+
+
+
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+  .hideDataForPrint{
+    display: none;
+  }
+  .sidebar_toggle1,.sidebar_toggle2{
+    display: none;
+  }
+  .billing-invoice {
+    overflow: auto !important; 
+    margin: 20px auto;
+    page-break-inside: avoid; /* Prevent page breaks inside the container */
+    page-break-after: always; /* Ensure a page break after each container */
+   
+  }
+
+
+
+  
+
+  .new_billing_invoice_detials th{
+    color: var(--labelcolor) !important;
+  }
+
+  .tydtrtd_907sw2{
+    margin-left: 5px;
+  }
+
+}
+
+
+/* Global Styles for Printing */
+@media print {
+.billing-invoice_999 {
+  max-width: 800px;
+  overflow: visible; /* Ensure content is visible */
+  page-break-inside: auto; /* Allow page breaks inside */
+  page-break-before: auto; /* Allow page breaks before */
+  page-break-after: auto; /* Allow page breaks after */
+  border: none;
+  box-shadow: none;
+}
+
+.jwedu6_99{
+  display: none;
+}
+
+}
+
+@media print {
+.page-break3 {
+  page-break-after: always;
+}
+}
+
+
+.dcerw3{
+margin-top: 5px;
+}
+
+
+.dcerw3 label{
+ width: 200px !important;
+}
+
+.dcerw3 h4{
+width: 280px !important;
+font-size: 12px;
+}
+
+.signature-section903e9{
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: 13px;
+}
+
+
+
+.Input_billing{
+  width: 25px;
+  border: 1px solid grey;
+  outline: 0px;
+  border-radius: 5px;
+}
+
+
+
+/* --------------------------------------------- */
+
+/* InventoryPurchase.css */
+
+
+
+/* Default styles */
+.form-container input,.form-container select{
+  outline: 0px;
+}
+.QuickStock_container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* padding: 23px 13px; */
+  width: 98%;
+}
+.QuickStock_container_header {
+  background-color: var(--ProjectColor);
+  padding: 5px;
+  color: var(--labelcolor);
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 35px;
+margin-top: 10px;
+  display: flex;
+  /* font-size: 15px; */
+  text-align: center;
+  align-items: center;
+
+}
+.QuickStock_container_header h4,.QuickStock_container_totalValue h3{
+  margin: 0px;
+  display: flex;
+  text-align: center;
+font-size: 15px;
+  align-items: center;
+  gap: 10px;
+}
+
+.QuickStock_container_header h4{
+  font-size: 16px;
+}
+.invent_invent {
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: start;
+
+}
+
+.Inventory-2 {
+  width: 240px;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.textareaquick{
+  height: 50px;
+  padding: 5px;
+
+}
+
+.QuickStock_container_div {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.btn-cancel,
+.btn-add {
+  background-color: var(--ProjectColor);
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  height: 30px;
+  align-items: center;
+}
+
+.button_buton_class {
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.addtocart {
+  margin: 10px;
+}
+
+.btn-cancel:hover {
+  background-color: var(--ProjectColorhover);
+  color: var(--projectwhite);
+}
+
+.btn-add:hover {
+  background-color: var(--ProjectColorhover);
+  color: var(--projectwhite);
+}
+
+.QuickStock_container_form { 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  row-gap: 30px;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.pur_form_head {
+  background-color: var(--ProjectColor);
+  color: var(--labelcolor);
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  margin: -20px -20px 20px -20px;
+  text-align: center;
+}
+
+.pur_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.First_row_vendors,
+.purchase_row_number,
+.amendment-icons,
+.row-buttons {
+  /* flex: 1; */
+  margin-right: 10px;
+}
+
+
+
+.label_classname {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: var(--labelcolor);
+}
+
+.Inventory-1 {
+  width: 90%;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 30px;
+  font-size: 12px;
+}
+
+
+
+
+
+.search-input {
+  position: relative;
+}
+
+.search-input input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-right: 30px;
+}
+
+
+
+.empty_label {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+
+
+
+.cart-items {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.QuickStock_container_totalValue{
+  width: 100%;
+  height: 40px;
+  color: var(--labelcolor);
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid var(--ProjectColor);
+}
+.QuickStock_container_totalValue input{
+  width: 150px;
+  border: 0px;
+  outline: 0px;
+  color: var(--labelcolor);
+
+}
+.QuickStock_container_totalValue_1 h3{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:var(--labelcolor);
+}
+.Add_btn_Quick{
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.Add_btn_Quick button{
+  width: 100px;
+  background-color: var(--ProjectColor);
+  padding: 8px;
+  border-radius: 15px;
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+}
+
+.Add_btn_Quick button:hover{
+  background-color:var(--ProjectColorhover);
+  color: var(--projectwhite);
+}
+.QuickStock_table_container{
+  width: 98%;
+  overflow: auto;
+}
+.QuickStock_table{
+  /* width: 1350px; */
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.QuickStock_table table {
+    width: 100%;
+    border-collapse:separate;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px #c4b9b9;
+    
+  }
+  .QuickStock_table table thead{
+    color: var(--ProjectColor);
+    font-weight: 600;
+    height: 40x;
+    width: 100%;
+  }
+  .QuickStock_table th, td {
+    font-size: 13px;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+   .QuickStock_table tr:nth-child(even) {
+    background-color: rgba(224, 221, 223, 0.384); 
+  }
+
+  .QuickStock_table th {
+    background-color:  var(--ProjectColor);
+    color: var(--labelcolor);
+    border-radius: 5px;
+  }
+  
+  .QuickStock_table tr:hover {
+    background-color: var(--ProjectColorhover);
+    color: var(--projectwhite);
+  }
+  .QuickStock_Table_count{
+      width: 100%;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 10px;
+      box-sizing: border-box;
+      gap: 20px;
+  }
+  .QuickStock_Table_count_con{
+      width: 300px;
+  }
+  .QuickStock_Table_count_row{
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+  .QuickStock_Table_count_row label{
+      width: 150px;
+      text-align: center;
+      align-items: center;
+      justify-content: flex-start;
+      display: flex;
+      color: var(--labelcolor);
+
+  }
+  #QuickStock_Table_count_row_tax{
+      width: 50px;
+      height: 20px;
+      border: 1px solid grey;
+      border-radius: 5px ;
+      outline: 0px;
+  }
+ .QuickStock_Table_count_row input{
+  width: 115px;
+  height: 20px;
+  border: 1px solid grey;
+  border-radius: 5px ;
+  outline: 0px;
+ }
+ .cell_btn{
+  color: var(--labelcolor) !important;
+ }
+
+ .css-i4bv87-MuiSvgIcon-root{
+  color: var(--labelcolor) !important;
+}
+
+
+.dewe32{
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.inpu_discny_0{
+  border: 1px solid var(--ProjectColor);
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 40px;
+  text-align: center;
+
+  
+}
+@media print {
+  body {
+      font-size: 8px; /* Adjust the font size as needed */
+    }
+    .print34_phrmy{
+      display: none;
+    }
+  @page :first {
+      /* margin-top: 5cm; */
+      
+    }
+
+    @page :first {
+      /* margin-bottom: 6cm; */
+      margin-top: -2cm;
+      
+    }
+  @page :right {
+      margin-right: 2.5cm;
+    }
+
+   
+      
+    }
+
+    
+/* Ensure the container styles are suitable for screen and print */
+.for-print-data-container {
+margin: 20px;
+padding: 20px;
+border: 1px solid #000;
+background-color: #f9f9f9;
+}
+
+/* Print-specific styles */
+@media print {
+.for-print-data-container {
+  /* Ensure each container is treated separately in print */
+  page-break-inside: avoid;
+  page-break-after: always;
+}
+
+/* Force page break */
+.page-break33 {
+  page-break-before: always;
+  content: ""; /* Ensure the div creates a page break */
+  display: block; /* Make sure it takes up space */
+}
+
+/* Hide the print button during print */
+button {
+  display: none;
+}
+}
+
+
+
+/* Media queries for responsiveness */
+
+@media (max-width: 912px) {
+  .QuickStock_container_div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+  }
+
+  .QuickStock_container{
+      display: flex;
+      text-align: center;
+      width: 97%;
+  
+      align-items: center;
+      justify-content: center;
+      /* flex-direction: column; */
+      gap: 10px;
+      /* padding: 10px 0px; */
+  }
+
+
+  .form-container {
+      align-items: center;
+      justify-content: center;
+  }
+
+  
+
+  .QuickStock_container_header {
+      background-color: var(--ProjectColor);
+      /* padding: 5px; */
+      color: var(--labelcolor);
+      border-radius: 5px;
+      /* margin: 5px; */
+      width: 97%;
+      box-sizing: border-box;
+      /* height: 40px; */
+
+  }
+
+  .label_classname {
+      display: flex;
+      margin: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 13px;
+      color: var(--labelcolor);
+  }
+
+  .btn-cancel.btn-add:hover {
+      background-color: var(--ProjectColorhover);
+      color: var(--projectwhite);
+  }
+
+  .First_row_vendors,
+  .purchase_row_number,
+  .amendment-icons,
+  .row-buttons {
+      flex: 100%;
+      margin-right: 0;
+  }
+
+  .purchse_btn-purchase {
+      margin-right: 0;
+  }
+  .QuickStock_Table_count{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .QuickStock_container_form {
+      row-gap: 10px;
+  }
+
+  .invoice_Secondpart{
+    height: auto;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* border-bottom:1px solid var(--ProjectColor); */
+
+  }
+ 
+  
+
+.Selected-table-container444 {
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow: scroll;
+    width: 100%;
+}
+
+
+.itnm-icon{
+  position: relative;
+  left:105px;
+  top: 0px;
+  cursor: pointer;
+  color: var(--ProjectColor);
+  /* background-color: var(--ProjectColor); */
+  border: none;
+  /* margin-top: -10px;   */
+}
+
+
+}
+
+/* Responsive Styles (Adjust as needed) */
+@media (max-width: 600px) {
+  .billing-invoice , .billing-invoice_999 {
+    padding: 10px;
+  
+  }
+
+  .invoice-logo-address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .address {
+    margin-top: 10px;
+    margin-left:0;
+ }
+ .QuickStock_container{
+  display: flex;
+  text-align: center;
+  width: 92%;
+
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  gap: 10px;
+  /* padding: 10px 0px; */
+}
+
+
+}
+
+@media screen and (max-width: 810px) {
+  .fix-pymt-mble{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+
+
+
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 600px) {
+  .selected-medicine-table222 {
+      font-size: 12px;
+  }
+
+  .uiwe_uywg6{
+    flex-direction: column;
+
+  }
+
+  
+
+}
+
+
+/*  for print css */
+
+.BillingPrint_container{
+
+  background-color: var(--ProjectColor);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.BillingPrint_container_header{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  border-radius: 5px;
+  color: var(--labelcolor);
+  background-color: var(--ProjectColor);
+}
+.BillingPrint_container_header h3{
+  font-size: 20px;
+}
+.BillingPrint_con_1{
+  border-bottom: 1px var(--ProjectColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.BillingPrint_con_1_head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--labelcolor);
+}
+.BillingPrint_con_1_body{
+  
+  background-color: antiquewhite;
+  width: 700px;
+}
+
+
+
+.invoice_detials_total_1{
+  /* margin-top: 12px; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2px;
+  padding: 0px 10px ;
+  box-sizing: border-box;
+}
+
+.bill_body{
+ 
+  display: flex;
+  width: auto;
+
+}
+.bill_body label{
+  color: var(--labelcolor);
+  width: 200px;
+  display: flex;
+  font-size: 11px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.bill_body label span,.total_con_bill_head .bill_body label span{
+  width: fit-content;
+}
+.bill_body span{
+  padding: 0px 10px ;
+  box-sizing: border-box;
+  width: fit-content;
+  font-size: 13px;
+  align-items: end;
+}
+
+.total_con_bill_head{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.total_con_bill_head .bill_body{
+  width: 106px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+.total_con_bill_head{
+  width: 80px;
+  font-size: 11px;
+}
+.total_con_bill_head .bill_body  span{
+  width: 50px;
+  font-size: 11px;
+}
+.div_table{
+  font-size: 5px !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.div_table :is(th, td) {
+  width: 50%;
+  font-size: 5px ;
+  border-bottom: 0px !important;
+}
+.New_billlling_invoice_head{
+  /* height: 70px !important; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+
+}
+.new_billing_logo_con{
+  height: 60px;
+  width: 60px;
+}
+.new_billing_logo_con img{
+ 
+  height: 55px;
+  object-fit: contain;
+}
+
+.new_billing_heading{
+  width: 600px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.new_billing_address{
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+}
+.new_billing_address_1{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  color: grey;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+.new_billing_address_2{
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+  font-size: 12px;
+  width: 250px;
+}
+.new_billing_div{
+  width: 100%;
+  display: flex;
+  color: grey;
+  gap: 10px;
+  font-size: 11px;
+}
+.new_billing_div label{
+  width: 100px;
+  display: flex;
+  color: var(--labelcolor);
+  justify-content: space-between;
+}
+.fo_padd{
+  padding-bottom: 10px;
+}
+.second_new_billing_address{
+  border-top: 2px solid var(--ProjectColor);
+  padding-top: 10px;
+}
+
+
+
+.new_billing_invoice_detials table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto; 
+  /* margin-top: 20px; */
+}
+
+.new_billing_invoice_detials th, .new_billing_invoice_detials td {
+  padding: 5px 2px;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Table Header Styles */
+.new_billing_invoice_detials th {
+  /* background-color: var(--ProjectColor); */
+  height: 2px !important;
+  color: var(--labelcolor);
+  /* border-radius: 5px; */
+  
+}
+
+
+.Billing_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Table Row Styles */
+.new_billing_invoice_detials tbody tr:nth-child(even) {
+  background-color: rgba(224, 221, 223, 0.384);
+}
+
+/* Hover Styles */
+.new_billing_invoice_detials tbody tr:hover {
+  background-color: var(--ProjectColor);
+}
+
+
+.added_ivce_hed{
+  height: 10px !important;
+  display: flex !important;
+  font-size: 13px !important;  
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 10px !important;
+  color: black !important;
+}
+
+.added_regisFrm1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  height: 15px;
+
+}
+
+.added_regisFrm1 label{
+  display: flex;
+  justify-content: space-between;
+  width: 93px !important;
+  font-size: 11px !important;
+  font-weight: bold;
+  padding: 2px;
+  text-align: start;
+  align-items: center;
+}
+
+.added_regisFrm1 input,.added_regisFrm1 select{
+  width: 93px !important;
+  font-size: 11px !important;
+  padding: 4px 2px;
+  border: 1px solid var(--ProjectColor);
+  border-radius: 3px;
+  outline: none;
+}
+
+.added_regisFrm1 select{
+  height: 23px;
+}
+
+.added_ivce_fistprt{
+  padding: 0px !important;
+}
+
+
+.added_ivce_fistprt_Prchs{
+  height: 10px !important;
+  font-size: 12px !important;
+  color: black !important;
+}
+
+.uiwe_uywg6{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.jkewdkx70_86{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+}
+
+.ADDED_QuickStock_container{
+  gap: 5px !important;
+}
+
+.added_RegisterForm_1_btns{
+  padding: 3px !important;
+  height: 20px;
+  width: 50px;
+  font-size: 11px;
+}
+
+.EDWEDE th{
+  font-size: 10px !important;
+}
+
+.EDWEDE td{
+  font-size: 10px !important;
+  padding: 0px;
+}
+
+.addded_sumry_contre{
+  padding: 5px !important;
+}
+
+.addded_sumry_contre label{
+  margin: 0px !important;
+  padding:4px !important;
+  font-size: 10px !important;
+  width: 100px !important;
+  }
+
+.addded_sumry_contre input{
+  width: 88px !important;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 8px 0px;
+ 
+}
+
+.clm-itm-stl select{
+  height: 22.5px !important;
+  font-size: 11px !important;
+  width: 98px;
+}
+
+.hjgyh{
+  padding-bottom: 0px !important;
+}
+
+.added_Register_btn_con{
+  margin: 10px;
+  height: 20px !important;
+  display: flex;
+  justify-content: center;
+}
+
+
+.edcwjkediu87{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.DEWSDXWED table{
+  margin: 0px !important;
+}
+
+.uytreertr {
+  margin: 5px 0px;
+}
+.uytreertr label{
+  width: 200px !important;
+}
+
+.uytreertr h4{
+  width: 200px;
+  font-size: 12px;
+}
+
+.signature_section909_iiii{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+
+}

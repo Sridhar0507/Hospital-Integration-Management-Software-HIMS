@@ -1,0 +1,115 @@
+.WardPreOpChk{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+
+}
+
+
+.WardPreOpChk label{
+    display: flex;
+    width:270px;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    font-weight: bold;
+
+}
+
+
+.WardPreOpChk span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+    font-size: 13px;
+    width: 60px;
+    font-weight: bold;
+}
+
+
+.WardPreOpChk_checkbox{
+    display: flex;
+    width: 300px;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.WardPreOpChk_checkbox label{
+    width: 50px !important;
+}
+
+.WardPreOpChk_checkbox input[type="checkbox"]{
+    height: 16px;
+    width: 16px; 
+  }
+  
+
+  .WardPreOpChk_checkbox{
+    flex-direction: column;
+    width: 125px;
+   }
+
+ /* Styles for radio buttons */
+ .WardPreOpChk input[type="checkbox"] {
+    margin-right: 5px; /* Adjust spacing between radio button and label */
+    transform: scale(1.2); /* Make radio buttons slightly larger for better visibility */
+  }
+
+
+  .WardPreOpChk input{
+    width: 120px;
+    padding: 5px;
+    border:  1px solid var(--ProjectColor);
+    border-radius: 5px;
+    outline: none;
+  }
+  
+
+  /* Styles for label text */
+  .WardPreOpChk label {
+    color: #333; /* Text color */
+    display: flex;
+    gap: 5px;
+  }
+  
+  /* Style for selected radio button */
+  .WardPreOpChk input[type="checkbox"]:checked + label {
+    font-weight: bold; /* Make the selected option bold */
+  }
+
+
+
+.PreOpChk span{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: center;
+    /* width: 50px; */
+}
+
+.PreOpChk input{
+    border: 1px solid var(--ProjectColor);
+    border-radius: 5px;
+    padding: 5px;
+    width: 285px;
+    outline: none;
+    height: 20px;
+  
+  }
+
+
+  .PreOpChk input{
+    width: 120px;
+   }
+
+
+
+  
+
